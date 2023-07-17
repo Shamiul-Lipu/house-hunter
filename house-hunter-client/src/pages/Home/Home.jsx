@@ -1,3 +1,5 @@
+import Container from "../../component/Container/Container";
+import DisplayHouses from "./DisplayHouses/DisplayHouses";
 import SearchBar from "./SearchBar/SearchBar";
 
 const Home = () => {
@@ -6,6 +8,11 @@ const Home = () => {
             <section className="flex justify-center">
                 <SearchBar></SearchBar>
             </section>
+            <Container>
+                <section>
+                    <DisplayHouses></DisplayHouses>
+                </section>
+            </Container>
         </>
     );
 };

@@ -15,13 +15,13 @@ const SearchBar = () => {
                 <input
                     onBlur={(e) => setSearchText(e.target.value)}
                     type="text"
-                    className="form-control input input-bordered"
+                    className="form-control input input-bordered input-accent"
                     placeholder="Insert a search text"
                     aria-label="Recipient's username"
                     aria-describedby="button-addon2"
                 />
                 <button
-                    className="btn btn-outline-info"
+                    className="btn  btn-accent"
                     type="button"
                     id="button-addon2"
                     onClick={handlerSearch}

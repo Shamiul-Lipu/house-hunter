@@ -1,19 +1,5 @@
 [
     {
-        "house_name": "",
-        "address": "",
-        "city": "Sylet",
-        "bedromms": 5,
-        "bathrooms": 3,
-        "room_size": 5000,
-        "picture": "",
-        "available_date": "",
-        "available": true,
-        "monthly_rent": 35000,
-        "phone_number": "+8801724644966",
-        "description": ""
-    },
-    {
         "house_name": "Luxurious Mansion",
         "address": "123 Elite Avenue",
         "city": "Dhaka",
@@ -26,7 +12,8 @@
         "monthly_rent": 55000,
         "phone_number": "+8801724644986",
         "description": "A magnificent mansion with spacious rooms, upscale amenities, and exquisite architectural design.",
-        "ratings": 5
+        "ratings": 5,
+        "reviewed_by": 35
     },
     {
         "house_name": "Cozy Apartment",
@@ -41,7 +28,8 @@
         "monthly_rent": 40000,
         "phone_number": "+8801724644986",
         "description": "A comfortable apartment with three bedrooms, two bathrooms, and a spacious living area.",
-        "ratings": 4
+        "ratings": 4,
+        "reviewed_by": 23
     },
     {
         "house_name": "Modern Townhouse",
@@ -56,7 +44,8 @@
         "monthly_rent": 60000,
         "phone_number": "+8801724644986",
         "description": "A modern townhouse featuring five bedrooms, four bathrooms, and stylish interior design.",
-        "ratings": 5
+        "ratings": 5,
+        "reviewed_by": 16
     },
     {
         "house_name": "Spacious Villa",
@@ -71,7 +60,8 @@
         "monthly_rent": 70000,
         "phone_number": "+8801724644986",
         "description": "A spacious villa with six bedrooms, three bathrooms, and a large backyard for outdoor activities.",
-        "ratings": 4.5
+        "ratings": 4.5,
+        "reviewed_by": 13
     },
     {
         "house_name": "Cosy Bungalow",
@@ -86,7 +76,8 @@
         "monthly_rent": 35000,
         "phone_number": "+8801724644986",
         "description": "A cozy bungalow with four bedrooms, two bathrooms, and a charming garden.",
-        "ratings": 4.5
+        "ratings": 4.5,
+        "reviewed_by": 25
     },
     {
         "house_name": "Elegant Duplex",
@@ -101,7 +92,8 @@
         "monthly_rent": 45000,
         "phone_number": "+8801724644986",
         "description": "An elegant duplex with three bedrooms, three bathrooms, and modern architectural design.",
-        "ratings": 4
+        "ratings": 4,
+        "reviewed_by": 45
     },
     {
         "house_name": "Modern Apartment",
@@ -116,7 +108,8 @@
         "monthly_rent": 50000,
         "phone_number": "+8801724644986",
         "description": "A modern apartment with four bedrooms, three bathrooms, and a convenient location in Dhaka.",
-        "ratings": 4.6
+        "ratings": 4.6,
+        "reviewed_by": 31
     },
     {
         "house_name": "Luxury Villa",
@@ -131,7 +124,8 @@
         "monthly_rent": 70000,
         "phone_number": "+8801724644986",
         "description": "A luxurious villa offering seven bedrooms, five bathrooms, and lavish amenities for a premium lifestyle.",
-        "ratings": 4.6
+        "ratings": 4.6,
+        "reviewed_by": 32
     },
     {
         "house_name": "Spacious Townhouse",
@@ -146,7 +140,8 @@
         "monthly_rent": 60000,
         "phone_number": "+8801724644986",
         "description": "A spacious townhouse featuring six bedrooms, four bathrooms, and ample living space for a comfortable lifestyle.",
-        "ratings": 3
+        "ratings": 3,
+        "reviewed_by": 26
     },
     {
         "house_name": "Cosy Cottage",
@@ -161,7 +156,8 @@
         "monthly_rent": 40000,
         "phone_number": "+8801724644986",
         "description": "A charming and cosy cottage offering three bedrooms, two bathrooms, and a peaceful ambiance in Dhaka.",
-        "ratings": 4.6
+        "ratings": 4.6,
+        "reviewed_by": 27
     },
     {
         "house_name": "Modern Duplex",
@@ -176,7 +172,8 @@
         "monthly_rent": 55000,
         "phone_number": "+8801724644986",
         "description": "A modern duplex with four bedrooms, three bathrooms, and contemporary design elements for a stylish living experience in Dhaka.",
-        "ratings": 5
+        "ratings": 5,
+        "reviewed_by": 12
     },
     {
         "house_name": "Luxury Villa",
@@ -191,7 +188,8 @@
         "monthly_rent": 45000,
         "phone_number": "+8801724644966",
         "description": "A luxurious villa with six bedrooms, four bathrooms, and high-end amenities for a luxurious lifestyle in Sylhet.",
-        "ratings": 5
+        "ratings": 5,
+        "reviewed_by": 21
     },
     {
         "house_name": "Modern Apartment",
@@ -206,7 +204,8 @@
         "monthly_rent": 40000,
         "phone_number": "+8801724644966",
         "description": "A modern apartment featuring four bedrooms, three bathrooms, and contemporary design in Sylhet.",
-        "ratings": 4
+        "ratings": 4,
+        "reviewed_by": 14
     },
     {
         "house_name": "Cozy Cottage",
@@ -221,7 +220,8 @@
         "monthly_rent": 35000,
         "phone_number": "+8801724644966",
         "description": "A cozy cottage with three bedrooms, two bathrooms, and a warm and inviting atmosphere in Sylhet.",
-        "ratings": 4
+        "ratings": 4,
+        "reviewed_by": 11
     },
     {
         "house_name": "Elegant Townhouse",
@@ -236,7 +236,8 @@
         "monthly_rent": 50000,
         "phone_number": "+8801724644966",
         "description": "An elegant townhouse with five bedrooms, three bathrooms, and refined design elements for a sophisticated living experience in Sylhet.",
-        "ratings": 4.9
+        "ratings": 4.9,
+        "reviewed_by": 16
     },
     {
         "house_name": "Riverside Retreat",
@@ -251,7 +252,8 @@
         "monthly_rent": 40000,
         "phone_number": "+8801724644966",
         "description": "A tranquil riverside retreat offering four bedrooms, two bathrooms, and a serene ambiance for relaxation and peace in Sylhet.",
-        "ratings": 4.7
+        "ratings": 4.7,
+        "reviewed_by": 15
     },
     {
         "house_name": "Seaside Villa",
@@ -266,7 +268,8 @@
         "monthly_rent": 45000,
         "phone_number": "+8801724644966",
         "description": "A stunning seaside villa with six bedrooms, four bathrooms, and breathtaking ocean views in Chittagong.",
-        "ratings": 4.6
+        "ratings": 4.6,
+        "reviewed_by": 23
     },
     {
         "house_name": "Modern Apartment",
@@ -281,7 +284,8 @@
         "monthly_rent": 40000,
         "phone_number": "+8801724644966",
         "description": "A modern apartment featuring four bedrooms, three bathrooms, and convenient city living in Chittagong.",
-        "ratings": 3.5
+        "ratings": 3.5,
+        "reviewed_by": 18
     },
     {
         "house_name": "Cozy Cottage",
@@ -296,7 +300,8 @@
         "monthly_rent": 35000,
         "phone_number": "+8801724644966",
         "description": "A cozy cottage with three bedrooms, two bathrooms, and a peaceful atmosphere amidst nature in Chittagong.",
-        "ratings": 4.5
+        "ratings": 4.5,
+        "reviewed_by": 19
     },
     {
         "house_name": "Luxury Townhouse",
@@ -311,7 +316,8 @@
         "monthly_rent": 50000,
         "phone_number": "+8801724644966",
         "description": "A luxurious townhouse with five bedrooms, three bathrooms, and upscale amenities for a sophisticated living experience in Chittagong.",
-        "ratings": 4.2
+        "ratings": 4.2,
+        "reviewed_by": 13
     },
     {
         "house_name": "Hilltop Retreat",
@@ -326,7 +332,8 @@
         "monthly_rent": 40000,
         "phone_number": "+8801724644966",
         "description": "A serene hilltop retreat offering four bedrooms, two bathrooms, and stunning views of the surrounding landscapes in Chittagong.",
-        "ratings": 4.1
+        "ratings": 4.1,
+        "reviewed_by": 13
     },
     {
         "house_name": "Seaview Apartment",
@@ -341,7 +348,8 @@
         "monthly_rent": 45000,
         "phone_number": "+8801724644966",
         "description": "An apartment with three bedrooms, three bathrooms, and mesmerizing sea views for a tranquil living experience in Chittagong.",
-        "ratings": 4.4
+        "ratings": 4.4,
+        "reviewed_by": 22
     },
     {
         "house_name": "Garden Villa",
@@ -356,7 +364,8 @@
         "monthly_rent": 55000,
         "phone_number": "+8801724644966",
         "description": "A luxurious villa with five bedrooms, four bathrooms, and a lush garden oasis in Chittagong.",
-        "ratings": 4
+        "ratings": 4,
+        "reviewed_by": 14
     },
     {
         "house_name": "Modern Villa",
@@ -371,7 +380,8 @@
         "monthly_rent": 45000,
         "phone_number": "+8801724644966",
         "description": "A modern villa with six bedrooms, four bathrooms, and contemporary design elements in Rajshahi.",
-        "ratings": 4
+        "ratings": 4,
+        "reviewed_by": 18
     },
     {
         "house_name": "Luxury Apartment",
@@ -386,7 +396,8 @@
         "monthly_rent": 40000,
         "phone_number": "+8801724644966",
         "description": "A luxury apartment featuring four bedrooms, three bathrooms, and upscale amenities for a sophisticated living experience in Rajshahi.",
-        "ratings": 4
+        "ratings": 4,
+        "reviewed_by": 12
     },
     {
         "house_name": "Cozy Cottage",
@@ -401,7 +412,8 @@
         "monthly_rent": 35000,
         "phone_number": "+8801724644966",
         "description": "A cozy cottage with three bedrooms, two bathrooms, and a peaceful ambiance in Rajshahi.",
-        "ratings": 4.6
+        "ratings": 4.6,
+        "reviewed_by": 23
     },
     {
         "house_name": "Elegant Townhouse",
@@ -416,7 +428,8 @@
         "monthly_rent": 50000,
         "phone_number": "+8801724644966",
         "description": "An elegant townhouse with five bedrooms, three bathrooms, and refined design elements for a sophisticated living experience in Rajshahi.",
-        "ratings": 4.1
+        "ratings": 4.1,
+        "reviewed_by": 21
     },
     {
         "house_name": "Lakeview Villa",
@@ -431,7 +444,8 @@
         "monthly_rent": 45000,
         "phone_number": "+8801724644966",
         "description": "A stunning lakeview villa with six bedrooms, four bathrooms, and scenic views in Bogura.",
-        "ratings": 5
+        "ratings": 5,
+        "reviewed_by": 23
     },
     {
         "house_name": "Modern Apartment",
@@ -446,7 +460,8 @@
         "monthly_rent": 40000,
         "phone_number": "+8801724644966",
         "description": "A modern apartment featuring four bedrooms, three bathrooms, and contemporary design in Bogura.",
-        "ratings": 5
+        "ratings": 5,
+        "reviewed_by": 16
     },
     {
         "house_name": "Cozy Cottage",
@@ -461,7 +476,8 @@
         "monthly_rent": 35000,
         "phone_number": "+8801724644966",
         "description": "A cozy cottage with three bedrooms, two bathrooms, and a peaceful ambiance in Bogura.",
-        "ratings": 4.6
+        "ratings": 4.6,
+        "reviewed_by": 16
     },
     {
         "house_name": "Elegant Townhouse",
@@ -476,7 +492,8 @@
         "monthly_rent": 50000,
         "phone_number": "+8801724644966",
         "description": "An elegant townhouse with five bedrooms, three bathrooms, and refined design elements for a sophisticated living experience in Bogura.",
-        "ratings": 4.7
+        "ratings": 4.7,
+        "reviewed_by": 23
     },
     {
         "house_name": "Seaside Villa",
@@ -491,7 +508,8 @@
         "monthly_rent": 45000,
         "phone_number": "+8801724644966",
         "description": "A stunning seaside villa with six bedrooms, four bathrooms, and breathtaking views of the ocean in Khulna.",
-        "ratings": 4.3
+        "ratings": 4.3,
+        "reviewed_by": 22
     },
     {
         "house_name": "Modern Apartment",
@@ -506,7 +524,8 @@
         "monthly_rent": 40000,
         "phone_number": "+8801724644966",
         "description": "A modern apartment featuring four bedrooms, three bathrooms, and contemporary design in Khulna.",
-        "ratings": 4.3
+        "ratings": 4.3,
+        "reviewed_by": 33
     },
     {
         "house_name": "Cozy Cottage",
@@ -521,7 +540,8 @@
         "monthly_rent": 35000,
         "phone_number": "+8801724644966",
         "description": "A cozy cottage with three bedrooms, two bathrooms, and a peaceful ambiance in Khulna.",
-        "ratings": 4.1
+        "ratings": 4.1,
+        "reviewed_by": 31
     },
     {
         "house_name": "Elegant Townhouse",
@@ -536,6 +556,7 @@
         "monthly_rent": 50000,
         "phone_number": "+8801724644966",
         "description": "An elegant townhouse with five bedrooms, three bathrooms, and refined design elements for a sophisticated living experience in Khulna.",
-        "ratings": 4.4
+        "ratings": 4.4,
+        "reviewed_by": 23
     }
 ]
