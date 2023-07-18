@@ -2,7 +2,7 @@ import Container from "../Container/Container";
 import mainLogo from '../../assets/door-key.png'
 import { FaUser, FaUserCheck } from "react-icons/fa";
 const Navbar = () => {
-    const user = "null"
+    const user = null
     let role = 'owner'
 
 
@@ -28,13 +28,19 @@ const Navbar = () => {
                                 : <button className="btn btn-neutral">Login</button>
                         }
 
-                        <label tabIndex={0} className={`btn btn-ghost btn-circle avatar ${user && 'online'} px-1 `}>
-                            <div
-                                className={`${user ? 'w-6' : 'w-6'} rounded-full ring ring-primary ring-offset-base-100 ring-offset-2`}
-                            >
-                                {user ? <FaUserCheck className="w-6 h-6 text-green-700" /> : <FaUser className="w-6 h-6 text-gray-700" />}
-                            </div>
-                        </label>
+                        <div className={`flex items-center px-2 py-1 border-[1px]  ${user ? ' border-emerald-400 rounded-full ml-1' : 'border-white rounded-full ml-1'}`}>
+                            {
+                                user && <button className="px-4 py-2 bg-indigo-600 text-white rounded-full">Log out</button>
+                            }
+                            <label tabIndex={0} className={`btn btn-ghost btn-circle avatar ${user && 'online'} px-1 `}>
+                                <div
+                                    className={`${user ? 'w-6' : 'w-6'} rounded-full ring ring-primary ring-offset-base-100 ring-offset-2`}
+                                >
+
+                                    {user ? <FaUserCheck className="w-6 h-6 text-green-700" /> : <FaUser className="w-6 h-6 text-gray-700" />}
+                                </div>
+                            </label>
+                        </div>
                     </div>
                 </nav>
             </Container>
