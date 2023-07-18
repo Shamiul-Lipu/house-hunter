@@ -28,6 +28,38 @@ const client = new MongoClient(uri, {
 async function run() {
     try {
 
+        const housesCollection = client.db('houseHunterDB').collection('houses')
+        const usersCollection = client.db('houseHunterDB').collection('users');
+
+        // user login
+        app.post('/login', async (req, res) => {
+
+        })
+
+        // user registration
+        app.post('/registration', async (req, res) => {
+
+        })
+
+        // user profile
+        app.get('/profile', async (req, res) => {
+
+        })
+
+        // get house data based on search text
+        app.get('/all-houses', async (req, res) => {
+            const searchText = req.query.searchText;
+            const limit = parseInt(req.query.limit) || 10;
+            // const page = parseInt(req.query.currentPage) || 0;
+            // const skip = page * limit;
+            // console.log(limit, page);
+            const result = await housesCollection.find({
+                $or: [
+                    { house_name: { $regex: searchText, $options: "i" } }
+                ]
+            }).limit(limit).toArray();
+            res.send(result);
+        });
 
 
         // Send a ping to confirm a successful connection

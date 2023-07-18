@@ -2,7 +2,7 @@ import Container from "../Container/Container";
 import mainLogo from '../../assets/door-key.png'
 import { FaUser, FaUserCheck } from "react-icons/fa";
 const Navbar = () => {
-    const user = null
+    const user = 'null'
     let role = 'owner'
 
 
